@@ -1,0 +1,24 @@
+# Dependencies
+node_modules/
+
+# Build files
+dist/
+coverage/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.pyc
+venv/
+.venv/
+# TypeScript build information and generated config outputs
+*.tsbuildinfo
+vite.config.js
+vite.config.d.ts
